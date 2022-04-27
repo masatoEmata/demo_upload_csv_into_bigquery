@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = './sample_change.csv'
+file_path = './sample.csv'
 
 df = pd.read_csv(file_path, encoding='shift-jis')
 print(df)
